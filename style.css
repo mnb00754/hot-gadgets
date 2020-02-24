@@ -1,3 +1,6 @@
+body {
+    font-family: "Poppins";
+  }
 .container{
     margin-bottom: 40px;
 }
@@ -21,14 +24,26 @@
     cursor: pointer;
 }
 
-.categori h1{
+
+.categori h1 {
     color: black;
     text-align: center;
     font-size: 40px;
-    border-bottom: 4px solid #ffc81d;
     width: 17%;
     margin: 0 auto;
     padding-bottom: 5px;
+    position: relative;
+}
+.categori h1::after {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: #ffc81d;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
 }
 
 .card{
@@ -59,7 +74,6 @@ footer{
     width: 100%;
     text-align: center;
 }
-
 .cat-img {
     text-align: center;
 }
