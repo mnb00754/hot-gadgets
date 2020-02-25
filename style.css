@@ -101,3 +101,13 @@ box-shadow: -1px 1px 14px 4px rgba(179,170,179,1);
 .carousel-indicators li{
     background-color: orange;
 }
+.slider{
+    background: url("images/bg2.png") left bottom no-repeat, url("images/best-product.png") top center no-repeat;
+  background-size: 90px, 60px;
+}
+.slider-content {
+    padding: 0 83px;
+}
+.see-text {
+    color: #ffca1c;
+}
